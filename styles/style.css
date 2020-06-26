@@ -14,7 +14,7 @@ a, p {
     text-decoration: none;
     color: #212121;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 13px;
 }
 a:hover {
     text-decoration: underline;
@@ -23,11 +23,15 @@ a:hover {
     grid-area: about;
     justify-self: center;
     align-self: center;
+    color: #5f6368;
+
 }
 #store {
     grid-area: store;
     justify-self: center;
     align-self: center;
+    color: #5f6368;
+
 }
 #gmail {
     grid-area: gmail;
@@ -112,7 +116,6 @@ a:hover {
     border: 1px solid #f2f2f2;
     color: #5f6368;
     border-radius: 5px;
-
     
 }
 #lucky-btn:hover {
@@ -146,6 +149,7 @@ a:hover {
     justify-self: center;
     color: rgba(0,0,0,.54);
     padding-bottom: 10px;
+    font-size: 14px;
 
 }
 #footer {
